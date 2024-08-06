@@ -49,7 +49,7 @@ video = yt.streams.filter(progressive = true,
 file_extension = 'mp4').order_by('resolution').desc().first().download
 
 os.system("clear")
-print(""" \033[1;32m
+print(""" 
 
       \033[38;5;46m____  ____  _  ________
      \033[38;5;46m/ __ \/ __ \/ | / / ____/
